@@ -1,0 +1,64 @@
+.rightbar{
+    flex: 3.5;
+}
+.rightbarwrapper{
+    padding: 20px 20px 0 0;
+}
+.rightbarbirth{
+    display: flex;
+    align-items: center;
+}
+.rightbarbirthday{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.rightbarbirthtext{
+    font-size: 20px;
+}
+
+.rightbaradd{
+    margin: 40px 0;
+}
+.rightbaraddimg{
+    height: 300;
+    width: 300;
+    border-radius: 10px;
+    width: 100%;
+}
+.rightbarfriends{
+    font-size: 20px;
+}
+.rightbarfriendslist{
+    padding: 0%;
+    margin: 0%;
+}
+.rightbaronlinefriends{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.rightbarimgcontainer{
+    margin-right: 20px;
+    align-items: center;
+    position: relative;
+}
+.rightbaronlineprofileimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rightbaronline{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: limegreen;
+    right: 0;
+    border: solid white 1px;
+}
+.onlineusername{
+    font-size: 20px;
+    font-weight: 500;
+}
