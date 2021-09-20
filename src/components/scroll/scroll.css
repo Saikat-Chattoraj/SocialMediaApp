@@ -1,0 +1,19 @@
+.scroll{
+    display: flex;
+    width: 75%;
+  height: calc(100vh - 0px);
+  overflow:scroll;
+  top:0%;
+  bottom: 0%;
+  margin: 0%;
+  margin-bottom: 0.5rem;
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-track{
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+}

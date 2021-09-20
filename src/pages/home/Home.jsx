@@ -1,7 +1,6 @@
 import Topbar from "../../components/topbar/Topbar";
 import Sidebar from "../../components/sidebar/Sidebar";
-import Rightbar from "../../components/rightbar/Rightbar";
-import Feed from "../../components/feed/Feed";
+import Scroll from "../../components/scroll/Scroll"
 import "./home.css"
 export default function Home() {
     return (
@@ -9,8 +8,7 @@ export default function Home() {
             <Topbar />
             <div className="homeContainer">
                 <Sidebar />
-                <Feed />
-                <Rightbar />
+                <Scroll/>
             </div>
         </>
     )
